@@ -429,6 +429,7 @@ type environmentVarType = {
   value: string?
 }
 
+@export()
 @description('The type for a container app probe.')
 type containerAppProbeType = {
   @description('Optional. Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3.')
